@@ -55,7 +55,21 @@ toutiao.directive('ngView',[function(){
    }
 }])
 
-
+toutiao.controller('guanxinCtrl',['$scope',function($scope){
+      $scope.starlist=[
+        {image:'image/huati/x31.png',name:'张韶涵',love:'2086人关心',lun:'1196条评论',state:true},
+        {image:'image/huati/x32.png',name:'豹子',love:'5431人关心',state:true},
+        {image:'image/huati/x33.png',name:'日娱',love:'9076人关心',state:true},
+        {image:'image/huati/x34.png',name:'马伊俐',love:'5.8万人关心',lun:'1999条评论',state:true},
+        {image:'image/huati/x35.png',name:'林正英',love:'8062人关心',lun:'1507条评论',state:true},
+        {image:'image/huati/x36.png',name:'虎',love:'1.1万人关心',lun:'1969条评论',state:true},
+      ]
+      $scope.xiaoshi = true;
+      $scope.guanxin = function(v){
+         v.state = !v.state
+         $scope.xiaoshi = false;
+      }
+}])
 toutiao.controller('shouyeCtrl',['$scope',function($scope){
 
 }])
@@ -181,11 +195,17 @@ toutiao.config(['$routeProvider',function($routeProvider){
 	}).when('/shouye/redian',{
         controller: 'redianCtrl',
         templateUrl: 'views/templates/shouye/redian.html'
-    })
-	.when('/shipin',{
+    }).when('/shipin',{
 		controller: 'shipinCtrl',
 		templateUrl: 'views/templates/shipin/tuijian.html'
-	}).when('/huati',{
+	}).when('/shipin/tuijian',{
+        controller: 'shipinCtrl',
+        templateUrl: 'views/templates/shipin/tuijian.html'
+    }).when('/shipin/doubiju',{
+        controller: 'shipinCtrl',
+        templateUrl: 'views/templates/shipin/doubiju.html'
+    })
+    .when('/huati',{
 		controller: 'huatiCtrl',
 		templateUrl: 'views/templates/huati/tuijian.html'
 	}).when('/wode',{
