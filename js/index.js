@@ -208,7 +208,14 @@ toutiao.config(['$routeProvider',function($routeProvider){
     .when('/huati',{
 		controller: 'huatiCtrl',
 		templateUrl: 'views/templates/huati/tuijian.html'
-	}).when('/wode',{
+	}).when('/huati/guanzhu',{
+    controller: 'guanxinCtrl',
+    templateUrl: 'views/templates/huati/guanxin.html'
+  }).when('/huati/tuijian',{
+    controller: 'guanxinCtrl',
+    templateUrl: 'views/templates/huati/tuijian.html'
+  })
+    .when('/wode',{
 		controller: 'wodeCtrl',
 		templateUrl: 'views/templates/wode.html'
 	}).otherwise({

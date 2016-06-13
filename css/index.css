@@ -386,6 +386,10 @@ img {
   text-align: center;
 }
 
+#ht-nav ul li a {
+  color: #333;
+}
+
 #ht-nav .iconfont {
   font-size: 0.42rem;
 }
@@ -497,6 +501,182 @@ img {
 
 #ht-tuijian .xinwen .you .zan {
   margin-right: 0.3rem;
+}
+
+/* 话题关注 */
+#guanxin .gxt {
+  position: fixed;
+  top: .19rem;
+  left: 0;
+  width: 100%;
+  height: .39rem;
+  text-align: center;
+  line-height: .39rem;
+  background: #fff;
+  border-bottom: 1px solid #F3F3F3;
+  /*position: relative;*/
+}
+
+#guanxin .gxt a {
+  display: block;
+  position: absolute;
+  top: .08rem;
+  width: .24rem;
+  height: .24rem;
+}
+
+#guanxin .gxt .clock {
+  background: url(../images/clock.png) no-repeat 0 0;
+  left: .15rem;
+}
+
+#guanxin .gxt .shou {
+  background: url(../images/sou.png) no-repeat 0 0;
+  right: .15rem;
+}
+
+#guanxin .gxt .guan {
+  font-size: .16rem;
+  color: #404040;
+}
+
+#guanxin .bao .zhen {
+  border-bottom: 1px solid #E1E1E1;
+  padding: .24rem;
+}
+
+#guanxin .bao .zhen .zzgx #tiao {
+  margin-top: .08rem;
+  float: left;
+  display: block;
+  width: .08rem;
+  height: .22rem;
+  border-radius: .2rem;
+  background: #F85B5B;
+}
+
+#guanxin .bao .zhen .zzgx .xz {
+  margin-left: .2rem;
+  font-size: .24rem;
+  color: #222222;
+}
+
+#guanxin .bao .zhen .add {
+  margin-top: .2rem;
+  width: 100%;
+  height: .76rem;
+  line-height: .76rem;
+  color: #979797;
+}
+
+#guanxin .bao .zhen .add .kuang {
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: .6rem;
+  width: .72rem;
+  height: .72rem;
+  font-size: .8rem;
+  border: 1px dashed #DFDFDF;
+}
+
+#guanxin .bao .zhen .add .kz {
+  margin-left: .2rem;
+  font-size: .298em;
+}
+
+#guanxin .bao .zhen .ren {
+  margin-top: .2rem;
+  width: 100%;
+  color: #979797;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #F8F8F8;
+  position: relative;
+}
+
+#guanxin .bao .zhen .ren .ge {
+  position: absolute;
+  top: -0.3rem;
+  display: block;
+  float: left;
+  width: .72rem;
+  height: .72rem;
+}
+
+#guanxin .bao .zhen .ren .ge img {
+  width: 100%;
+  height: 100%;
+}
+
+#guanxin .bao .zhen .ren .kz {
+  margin-left: .9rem;
+  width: 60%;
+  height: 1rem;
+}
+
+#guanxin .bao .zhen .ren .kz span {
+  display: block;
+}
+
+#guanxin .bao .zhen .ren .kz .rm {
+  font-size: .3rem;
+  color: #2D2D2D;
+}
+
+#guanxin .bao .zhen .ren .kz .xx span {
+  margin-right: .16rem;
+  font-size: .24rem;
+  float: left;
+}
+
+#guanxin .bao .zhen .ren .kz1 {
+  line-height: .76rem;
+  margin-left: .9rem;
+  width: 60%;
+  height: 100%;
+}
+
+#guanxin .bao .zhen .ren .kz1 span {
+  display: block;
+}
+
+#guanxin .bao .zhen .ren .kz1 .rm {
+  font-size: .3rem;
+  color: #2D2D2D;
+}
+
+#guanxin .bao .zhen .ren .gzz {
+  position: absolute;
+  right: 0;
+  top: .2rem;
+  width: .88rem;
+  height: .46rem;
+  border: 1px solid #6AB1E3;
+  border-radius: 5px;
+  font-size: .28rem;
+  color: #6AB1E3;
+  text-align: center;
+  line-height: .46rem;
+}
+
+#guanxin .bao .zhen .ren .gzz1 {
+  position: absolute;
+  right: .12rem;
+  top: .4rem;
+  width: .6rem;
+  height: .2rem;
+  border-radius: 10px;
+  font-size: .24rem;
+  color: #fff;
+  background: #F85B5B;
+  text-align: center;
+  line-height: .14rem;
+}
+
+#guanxin .bao .jian {
+  height: .16rem;
+  background: #E8E8E8;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 /* 视频导航条 */
