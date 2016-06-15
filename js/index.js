@@ -57,12 +57,13 @@ toutiao.directive('ngView',[function(){
 
 toutiao.controller('guanxinCtrl',['$scope',function($scope){
       $scope.starlist=[
-        {image:'image/huati/x31.png',name:'张韶涵',love:'2086人关心',lun:'1196条评论',state:true},
-        {image:'image/huati/x32.png',name:'豹子',love:'5431人关心',state:true},
-        {image:'image/huati/x33.png',name:'日娱',love:'9076人关心',state:true},
-        {image:'image/huati/x34.png',name:'马伊俐',love:'5.8万人关心',lun:'1999条评论',state:true},
-        {image:'image/huati/x35.png',name:'林正英',love:'8062人关心',lun:'1507条评论',state:true},
-        {image:'image/huati/x36.png',name:'虎',love:'1.1万人关心',lun:'1969条评论',state:true},
+        {image:'image/huati/ht1.png',name:'股民交流',love:'64497人已关注',lun:'9556条帖子',state:true},
+        {image:'image/huati/ht2.png',name:'岁月是把杀猪刀',love:'3329人已关注',lun:'6497条帖子',state:true},
+        {image:'image/huati/ht3.png',name:'魅族MX4 Pro',love:'14666人已关注',lun:'7509条帖子',state:true},
+        {image:'image/huati/ht4.png',name:'华为mate8',love:'13083人已关注',lun:'3555条帖子',state:true},
+        {image:'image/huati/ht5.png',name:'华为荣耀',love:'29257人已关注',lun:'5866条帖子',state:true},
+        {image:'image/huati/ht6.png',name:'一起来背古诗词',love:'39425人已关注',lun:'11023条帖子',state:true},
+        {image:'image/huati/ht7.png',name:'吊兰',love:'20334人已关注',lun:'6719条帖子',state:true},
       ]
       $scope.xiaoshi = true;
       $scope.guanxin = function(v){
@@ -185,6 +186,7 @@ toutiao.controller('wodeCtrl',['$scope',function($scope){
 
 toutiao.config(['$routeProvider',function($routeProvider){
 	$routeProvider.when('/',{
+    controller: 'tuijianCtrl',
 		templateUrl: 'views/templates/shouye/tuijian.html'
 	}).when('/shouye',{
 		controller: 'tuijianCtrl',

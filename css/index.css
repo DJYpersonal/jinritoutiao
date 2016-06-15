@@ -272,6 +272,46 @@ img {
   overflow: auto;
 }
 
+#my .bt {
+  position: relative;
+  width: 100%;
+  height: 3.6rem;
+  background: url(../image/41.png) no-repeat 0 0;
+}
+
+#my .bt .biao {
+  top: .45rem;
+  left: .25rem;
+  opacity: 0.5;
+  position: absolute;
+  width: 86%;
+  height: .6rem;
+}
+
+#my .bt .biao li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+#my .bt .biao li a {
+  display: block;
+  margin-top: .03rem;
+  margin-left: .07rem;
+  width: .54rem;
+  height: .54rem;
+  border-radius: 50%;
+}
+
+#my .bt .tip {
+  width: .9rem;
+  height: .23rem;
+  position: absolute;
+  top: 1.14rem;
+  border-radius: 10px;
+  left: 1.17rem;
+}
+
 #my .self {
   width: 100%;
   height: 3.5rem;

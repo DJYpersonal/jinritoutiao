@@ -207,6 +207,42 @@ img{
 	height: 100%;
 	position: absolute;
 	overflow: auto;
+		.bt{
+		position: relative;
+		width: 100%;
+		height: 3.6rem;
+		background: url(../image/41.png) no-repeat 0 0;
+		.biao{
+			top:.45rem;
+			left:.25rem;
+			opacity: 0.5;
+			position: absolute;
+			width: 86%;
+			height: .6rem;
+			li{
+				float: left;
+				width: 25%;
+				height: 100%;
+				a{
+					display: block;
+                    margin-top: .03rem;
+                    margin-left: .07rem;
+					width: .54rem;
+					height: .54rem;
+					border-radius: 50%;
+				}
+
+			}
+		}
+		.tip{
+			width: .9rem;
+			height: .23rem;
+			position: absolute;
+			top:1.14rem;
+			border-radius: 10px;
+			left:1.17rem;
+		}
+	}
 	.self{
 		width: 100%;
 		height: 3.5rem;
